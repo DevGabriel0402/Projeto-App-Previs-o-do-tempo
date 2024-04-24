@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      width="64"
+      height="64"
+      rel="shortcut icon"
+      href="https://img.icons8.com/pulsar-gradient/64/cloud.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://img.icons8.com/pulsar-gradient/64/cloud.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Previsão do Tempo</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        class="input-city"
+        placeholder="Digite o nome da cidade"
+      />
+      <button class="btn-busca" id="btn-busca">
+        <img
+          class="img-busca"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="Icone-de-Buscar"
+        />
+      </button>
+      <div class="container-info hidden">
+        <h2 class="city"></h2>
+
+        <p class="temp"></p>
+
+        <div class="container-minor">
+          <img
+            class="img-forecast"
+            src=""
+            alt=""
+          />
+          <p class="forecast"></p>
+        </div>
+
+        <p class="moisture"></p>
+      </div>
+    </div>
+  </body>
+</html>
